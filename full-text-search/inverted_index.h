@@ -14,7 +14,7 @@ public:
 
 private:
 	struct Id_of_itr;
-	std::map <std::string, std::set <Occur_of_word>> map_of_words; //inverted index
+	std::map <std::string, std::set <Occur_of_word>> map_of_words; //inverted index 
 	void process_article(const Article& a);
 	void add_to_map(std::string word, const Article& a, size_t position);
 	bool make_vector_of_itr(std::vector<Id_of_itr>& v, const std::string& question);
