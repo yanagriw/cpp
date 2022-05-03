@@ -8,7 +8,7 @@ Inverted_index::Inverted_index(const vector<Article>& database_of_article) {
     }
 }
 
-//structure that helps to find intersection of words' occurences
+//structure that helps to find intersection of words' occurences 
 struct Inverted_index::Id_of_itr{
     string id_;
     set<Occur_of_word>::iterator itr_; //iterator to article with such id
