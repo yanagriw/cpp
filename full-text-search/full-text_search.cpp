@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     articles.open(argv[1]);
     if (!articles.good()) return 0;
 
-    //file from 2nd argument if it exists
+    //file from 2nd argument if it exists 
     ifstream questions;
     if (argc == 3) {
         questions.open(argv[2]);
