@@ -17,7 +17,7 @@ public:
 	}
 };
 
-//each word in inverted index have set of objects, each object contains article and position in text of this word
+//each word in inverted index have set of objects, each object contains article and position in text of this word 
 class Occur_of_word {
 public:
 	size_t occurance_;
